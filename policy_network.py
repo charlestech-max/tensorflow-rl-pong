@@ -82,4 +82,4 @@ class Network:
             self.sampled_actions: actions,
             self.advantage: rewards
         }
-        self.sess.run(self.train_op, feed_dict)
+        self.sess.run(self.train_op, feed_dict)
